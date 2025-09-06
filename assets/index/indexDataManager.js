@@ -54,12 +54,12 @@ async function getIndexNames() {
 getIndexNames();
 
 async function fetchIndexData(name) {
-    const response = await fetch("https://raw.githubusercontent.com/asrajavel/mf-index-data/main/index%20data/" + name + ".json");
+    const response = await fetch("https://raw.githubusercontent.com/lakshits11/mf-index-data/main/index%20data/" + name + ".json");
     return await response.json();
 }
 
 async function fetchListOfIndexNames(name) {
-    const response = await fetch("https://raw.githubusercontent.com/asrajavel/mf-index-data/main/index%20list.json");
+    const response = await fetch("https://raw.githubusercontent.com/lakshits11/mf-index-data/main/index%20list.json");
     return await response.json();
 }
 
