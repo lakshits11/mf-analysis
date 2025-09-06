@@ -197,10 +197,11 @@ body,
 input,
 select,
 textarea {
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Inter", Arial, sans-serif;
 	font-size: 17pt;
-	font-weight: 200;
+	/* font-weight: 200; */
 	line-height: 1.65;
+	-webkit-text-stroke-width: 0.2px;
 }
 
 @media screen and (max-width: 1680px) {

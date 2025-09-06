@@ -6,8 +6,8 @@ Highcharts.setOptions({
 
 var chart = Highcharts.stockChart('container', {
     credits: {
-        text: 'asrajavel.github.io/mf-analysis/',
-        href: 'asrajavel.github.io/mf-analysis/'
+        text: 'lakshits11.github.io/mf-analysis/',
+        href: 'lakshits11.github.io/mf-analysis/'
     },
     rangeSelector: {
         enabled: false
